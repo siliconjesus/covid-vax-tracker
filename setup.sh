@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 install flask
+python3 install flask configparser
