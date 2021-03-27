@@ -4,8 +4,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    #return '<a href=\"/md\">Maryland</a>'
-    ### Future 
     return render_template('home.html')
 @app.route('/md')
 def mdvax():
