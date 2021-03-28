@@ -1,0 +1,8 @@
+= covid-vax-tracker
+
+Have been going back and forth on a local chat group around how to best find
+available appointments to get one of the COVID vaccines.  Initially I was personally using https://github.com/Countdown369/CVS-COVID-19-Vaccine-Alerts[This python script], but I wanted something I could share.  As it is extremely apparent, I am a terrible coder and even worse with python, but this was a good opportunity to learn both python and flask a little better, I'm approaching it like that.
+
+This is going to be an evolutionary process for me to work through how to stretch beyond my normal infrastructure focused comfort zone.
+
+End goal would be to have it as a container I can just deploy anywhere (EKB or similar).
