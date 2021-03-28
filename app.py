@@ -9,12 +9,12 @@ config.read('app.ini')
 app = Flask(__name__)
 
 @app.route('/')
-def index():
+def home():
     return render_template('home.html')
 
-@app.route('/md')
-def mdvax():
-    return render_template('state.html')
+@app.route('/state/<state>')
+def statevax(state):
+    return render_template('state.html', state={state})
 
 if __name__ == '__main__':
     app.run()
